@@ -1,0 +1,253 @@
+.row {
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+}
+
+html::-webkit-scrollbar {
+    display: none; 
+}
+
+
+/* ------nav----- */
+#logo {
+    padding: 10px 0px 0px 20px;
+}
+
+.divNav {
+    display: inline;
+    margin-left: 20%;
+
+}
+
+.inNavInfo {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 40px;
+    font-size: 18px;
+}
+
+/* ------Page1----- */
+#page1 {
+    height: 550px;
+}
+
+button:hover {
+    padding: 20px 35px;
+    transition: all .96s cubic-bezier(0.20, 2, 1, -1);
+
+}
+
+button:not(hover) {
+    padding: 20px 35px;
+    transition: all .96s cubic-bezier(0.20, 2, 1, -1);
+
+}
+
+#page1Img {
+    float: right;
+    width: 40%;
+    margin: 70px 120px 0px 0px;
+}
+
+#intro {
+    width: 30%;
+    font-size: 70px;
+    padding: 50px 0px 0px 100px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+#p2 {
+    padding-left: 100px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.buttonpa1 {
+    cursor: pointer;
+    padding: 15px 30px;
+    color: white;
+    border-style: none;
+    font-size: 18px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#butt1 {
+    margin-left: 100px;
+    margin-right: 10px;
+    background-color: #0c426e;
+
+}
+
+#butt2 {
+    background-color: #252525;
+}
+
+/* ------Page2----- */
+#page2 {
+    width: 40.63cm;
+}
+
+#page2 .row {
+    padding-left: 30px;
+}
+
+#hedpa2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+}
+
+#page2 #hedpa2 span {
+    color: #09406c;
+}
+
+#page2 #hedpa2 {
+    margin: 0px;
+}
+
+#page2 hr {
+    width: 90px;
+    padding: 3px;
+    background-color: black;
+    border-radius: 9px;
+    margin-top: 9px;
+}
+
+#hedP {
+    padding-top: 10px;
+    padding-bottom: 1cm;
+    text-align: center;
+}
+
+#page2img {
+    width: 450px;
+}
+
+#dis {
+    transform: translateY(4cm);
+    height: 300px !important;
+}
+
+.see {
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+
+/* ------Page3----- */
+
+#page3A {
+    color: white;
+    background-image: url(../images/img-4.png);
+    background-attachment: fixed;
+    height: 11cm;
+}
+
+#page3A h2,
+#page3A p {
+    width: 30cm;
+    margin-left: 200px;
+    transform: translateY(3cm);
+
+}
+
+#page3 {
+    button {
+        padding: 10px 20px;
+        border-style: none;
+        transform: translate(18cm, 4cm);
+        cursor: pointer;
+    }
+
+
+}
+
+/* ------Page4----- */
+#num {
+    font-weight: 700;
+    border: 3px solid #326085;
+    padding: 5px;
+    border-radius: 10cm;
+    color: #326085;
+    margin-right: 30px;
+}
+
+#info {
+    color: #053c6a;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#data {
+    font-weight: 400;
+}
+
+/* ------Page5----- */
+#page5img {
+    width: 100px;
+    float: left;
+    padding-right: 20px;
+}
+
+#conta {
+    width: 20cm;
+    transform: translateX(10cm);
+}
+
+#cusname {
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#cusinf {
+    font-weight: 600;
+    color: #194c76;
+}
+
+
+#page6 {
+    background-color: #252525;
+    color: white;
+}
+
+#page6 h3 {
+    padding-top: 3cm;
+}
+
+#page6img {
+    float: left;
+    margin-right: 10px;
+}
+
+footer {
+    height: 400px;
+}
+
+#formfooter input {
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    border-style: none;
+
+}
+
+#formfooter button {
+    padding: 5px 25px;
+    background-color: #0c426e;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+#footerhr {
+    width: 30cm !important;
+    background-color: white !important;
+
+}
+
+#lasticon {
+    transform: translateX(14cm);
+}
